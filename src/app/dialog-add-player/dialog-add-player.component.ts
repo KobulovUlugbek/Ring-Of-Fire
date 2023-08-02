@@ -9,7 +9,7 @@ import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 export class DialogAddPlayerComponent implements OnInit {
 name : string = '';
 
-constructor(private dialogRef: MatDialogRef<DialogAddPlayerComponent>
+constructor(public dialogRef: MatDialogRef<DialogAddPlayerComponent>
   ) {}
 
 ngOnInit(): void{

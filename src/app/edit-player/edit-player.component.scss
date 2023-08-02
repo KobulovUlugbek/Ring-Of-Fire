@@ -1,0 +1,11 @@
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none; // later init image if i would but so is perfect
+
+    &:hover{
+        filter: brightness(1.15);
+    }
+}

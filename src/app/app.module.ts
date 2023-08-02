@@ -23,6 +23,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AppPlayerMobileComponent } from './app-player-mobile/app-player-mobile.component';
+import { EditPlayerComponent } from './edit-player/edit-player.component';
 
 
 
@@ -34,6 +36,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     PlayerComponent,
     DialogAddPlayerComponent,
     GameInfoComponent,
+    AppPlayerMobileComponent,
+    EditPlayerComponent,
   ],
   imports: [
     BrowserModule,
