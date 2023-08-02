@@ -1,13 +1,4 @@
 {
-  "targets": {
-    "ringoffire-83f1f": {
-      "hosting": {
-        "Ring-Of-Fire": [
-          "ringoffire-83f1f"
-        ]
-      }
-    }
-  },
   "projects": {
     "default": "ringoffire-83f1f"
   }
